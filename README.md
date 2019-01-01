@@ -1,4 +1,4 @@
-#MuManager
+# MuManager
 A simple object management system
 ### Example
 ```JavaScript
