@@ -1,0 +1,11 @@
+{
+  "name": "mumanager",
+  "version": "0.1.0",
+  "description": "A simple object tagged object management system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lemuel Canady, Jr",
+  "license": "MIT"
+}
