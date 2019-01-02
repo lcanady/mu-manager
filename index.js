@@ -61,6 +61,14 @@ class Manager {
     return this.list.get(name);
   }
 
+  /**
+   * Check to see if an object is being managed by the system.
+   * @param {string} name 
+   */
+  has(name){
+    return this.list.has(name);
+  }
+
 }
 
 module.exports = Manager;
