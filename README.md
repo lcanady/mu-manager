@@ -38,9 +38,7 @@ class Task {
     this.func = func;
   }
 
-  /**
-   * Logs to the console
-   */
+  /** Logs to the console */
   doSomething() {
     console.log('Did something!');
   }
