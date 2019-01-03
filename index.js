@@ -12,13 +12,7 @@ class Manager {
    * the manager's create method. 
    */
 
-  constructor({create}) {
-    /**
-     * Holds the create method from construction
-     * @type {function}
-     */
-    this.createObj = create;
-    
+  constructor() {
     /**
      * The key/value list of managed objects
      * @type {Map}
@@ -33,23 +27,6 @@ class Manager {
   */
   register(name, item) {
     this.list.set(name, item);
-    return item;
-  }
-
-  /**
-   * Run the creation method defined in manager options when insantiated.
-   * @param {string} name Name to register the results under.
-   * @param  {...any} args Any paramaters to be passed onto the creation
-   * method defined in manager options. 
-   */
-  create(name, ...args) {
-    let item;
-    if (_.isFunction(this.createObj)) {
-      item = this.createObj(args);
-    } else {
-      item = args;
-    }
-    this.register(name, item)
     return item;
   }
 
