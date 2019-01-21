@@ -4,10 +4,13 @@
   "description": "A simple object tagged object management system.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Lemuel Canady, Jr",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lcanady/mu-manager.git"
+  },
   "dependencies": {
     "lodash": "^4.17.11"
   }
